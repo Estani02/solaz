@@ -23,19 +23,39 @@ function Display1() {
         <button className="m-auto w-fit rounded-full bg-white px-5 py-3 font-extrabold uppercase text-red-600">
           Conoce los beneficios
         </button>
-        <div className="flex h-3/4 w-3/5 flex-row">
-          <span className="h-10 w-10 rounded-full bg-white p-3">
+        <div className="m-auto mt-20 flex h-3/4 w-3/4 flex-row justify-between">
+          <a
+            className="h-10 w-10 rounded-full bg-white p-1"
+            href="https://wa.me/5493512012426"
+            rel="noopener"
+            target="_blank"
+          >
             <WhatsappIcon />
-          </span>
-          <span className="h-4 rounded-full bg-white">
+          </a>
+          <a
+            className="h-10 w-10 rounded-full bg-white p-1"
+            href="https://www.tiktok.com/@solaz.club"
+            rel="noopener"
+            target="_blank"
+          >
             <TiktokIcon />
-          </span>
-          <span className="h-4 rounded-full bg-white">
+          </a>
+          <a
+            className="h-10 w-10 rounded-full bg-white p-1"
+            href="https://www.facebook.com/solazclubmendiolaza/?locale=es_LA"
+            rel="noopener"
+            target="_blank"
+          >
             <FacebookIcon />
-          </span>
-          <span className="h-4 rounded-full bg-white">
+          </a>
+          <a
+            className="h-10 w-10 rounded-full bg-white p-1"
+            href="https://www.instagram.com/solaz.club/?igshid=NGExMmI2YTkyZg"
+            rel="noopener"
+            target="_blank"
+          >
             <InstagramIcon />
-          </span>
+          </a>
         </div>
       </div>
     </div>
