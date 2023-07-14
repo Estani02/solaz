@@ -34,7 +34,7 @@ function NavBar() {
     }
 
   return (
-    <nav className="fixed top-0 w-full bg-red-600">
+    <nav className="fixed top-0 z-50 w-full bg-red-600">
       <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
         <span className="self-center whitespace-nowrap font-arial text-4xl font-black tracking-[-0.1em] text-white">
           SOLAZ
