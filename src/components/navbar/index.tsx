@@ -9,15 +9,11 @@ import { SwipeableDrawer } from '@mui/material'
 
 import NavIcon from '@/assets/svg/NavIcon'
 
-import NavItems from './NavItems'
+import ItemsNav from '../items/ItemsNav'
 
 function NavBar() {
   const [mobileOpen, setMobileOpen] = useState(false)
   const drawerWidth = 240
-
-  // function handleDrawerToggle() {
-  //   setMobileOpen(!mobileOpen)
-  // }
 
   const handleDrawerToggle =
     (_open: boolean) => (event: React.KeyboardEvent | React.MouseEvent) => {
@@ -60,13 +56,12 @@ function NavBar() {
               width: drawerWidth,
             },
           }}
-          // variant="temporary"
           onClose={handleDrawerToggle(false)}
           onOpen={handleDrawerToggle(true)}
         >
-          <NavItems mobile />
+          <ItemsNav mobile />
         </SwipeableDrawer>
-        <NavItems mobile={false} />
+        <ItemsNav mobile={false} />
       </div>
     </nav>
   )

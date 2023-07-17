@@ -6,7 +6,7 @@ interface PropsNavItems {
   mobile: boolean
 }
 
-function NavItems({ mobile }: PropsNavItems) {
+function ItemsNav({ mobile }: PropsNavItems) {
   return (
     <ul
       className={`flex ${
@@ -16,12 +16,14 @@ function NavItems({ mobile }: PropsNavItems) {
       }`}
     >
       {navItems.map((items) => (
-        <li key={items} className="font-medium">
-          <a href="#">{items}</a>
+        <li key={items} className="liNav">
+          <a className="navLink" href="#">
+            {items}
+          </a>
         </li>
       ))}
     </ul>
   )
 }
 
-export default NavItems
+export default ItemsNav

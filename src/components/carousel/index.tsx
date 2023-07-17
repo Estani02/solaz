@@ -11,14 +11,14 @@ function CarouselCompont() {
       name: 'Entrenamiento Personalizado',
       description:
         'Nuestros profesores altamente capacitados diseñarán un programa de entrenamiento personalizado adaptado a tus metas y necesidades individuales. Obtén resultados óptimos y maximiza tu potencial físico.',
-      img: 'https://architect.bjc.es/wp-content/uploads/2019/06/90078304_m.jpg',
+      img: 'https://www.eltiempo.com/files/article_main_1200/uploads/2023/05/31/6477a533b70ce.jpeg ',
     },
     {
       id: 2,
       name: 'Tecnología de Última Generación',
       description:
         'Experimenta la revolución del fitness con nuestra avanzada tecnología. Contamos con equipos de entrenamiento de última generación.!',
-      img: 'https://www.eltiempo.com/files/article_main_1200/uploads/2023/05/31/6477a533b70ce.jpeg',
+      img: 'https://architect.bjc.es/wp-content/uploads/2019/06/90078304_m.jpg',
     },
     {
       id: 3,
