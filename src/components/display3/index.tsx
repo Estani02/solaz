@@ -10,7 +10,7 @@ import IteamAppPhone from '../items/IteamAppPhone'
 
 function Display3() {
   return (
-    <div className="relative flex h-[80vh] flex-col items-center gap-6 bg-white p-2 text-black">
+    <div className="relative flex flex-col items-center gap-6 bg-white p-2 text-black">
       <h2 className="mt-10 font-arial text-2xl font-bold uppercase md:text-4xl">
         App{' '}
         <b className="self-center whitespace-nowrap font-arial text-3xl font-black tracking-[-0.1em] text-red-600 md:text-4xl">
@@ -18,7 +18,7 @@ function Display3() {
         </b>
       </h2>
       <div className="flex flex-col md:flex-row">
-        <div className="flex flex-col items-center gap-2">
+        <div className="flex h-fit flex-col items-center gap-2">
           <div className="flex">
             <Image
               alt="pantalla de celular"
