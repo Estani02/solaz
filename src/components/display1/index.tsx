@@ -17,7 +17,7 @@ function Display1() {
       <div
         className="absolute inset-0 bg-black opacity-[1]"
         style={{
-          background: 'linear-gradient(#15181c00 -100%, #16191d 85%, #15181c 90%)',
+          background: 'linear-gradient(#15181c00 -100%, #16191d 88%, #15181c 95%)',
         }}
       />
       <div className="relative mt-[72px] flex h-full flex-col gap-4 text-white">
@@ -27,7 +27,7 @@ function Display1() {
         <p className="mb-12 text-center text-[#ffffffb8] md:text-xl">
           Unite a la familia <b>Solaz</b>
         </p>
-        <div className="flex h-1/2 flex-col items-center justify-between">
+        <div className="flex h-[38%] flex-col items-center justify-between">
           <button className="w-fit rounded-full bg-white px-5 py-3 font-arial font-bold uppercase text-red-600 transition-colors duration-300 md:text-xl md:hover:bg-[#ffffff] md:hover:text-red-900">
             Conoce los beneficios
           </button>
