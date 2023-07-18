@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import { Montserrat } from 'next/font/google'
 
 import NavBar from '@/components/navbar'
+import Footer from '@/components/footer'
 
 const montserrat = Montserrat({ subsets: ['latin'], weight: '400' })
 
@@ -18,6 +19,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={montserrat.className}>
         <NavBar />
         {children}
+        <Footer />
       </body>
     </html>
   )
