@@ -11,7 +11,7 @@ function CarouselCompont() {
       name: 'Entrenamiento Personalizado',
       description:
         'Nuestros profesores altamente capacitados diseñarán un programa de entrenamiento personalizado adaptado a tus metas y necesidades individuales. Obtén resultados óptimos y maximiza tu potencial físico.',
-      img: 'https://www.eltiempo.com/files/article_main_1200/uploads/2023/05/31/6477a533b70ce.jpeg ',
+      img: 'https://www.styku.com/hubfs/_CW15488.jpg',
     },
     {
       id: 2,
