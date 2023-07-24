@@ -50,7 +50,7 @@ function Display4() {
           <Location className="h-5 w-5" />
           <p className="font-extrabold">UBICACIÓN</p>
         </span>
-        <Map />
+        {/* <Map /> */}
       </div>
     </section>
   )
