@@ -11,10 +11,10 @@ function ItemCarousel({ title, description, img, opacity }: PropsItemCarousel) {
         backgroundImage: `url(${img})`,
       }}
     >
-      <div className={`absolute inset-0 bg-black ${opacity ? 'opacity-[0.75]' : 'opacity-0'}`} />
-      <div className="relative p-5 text-left md:flex md:h-full md:w-full md:flex-col md:items-center md:justify-center md:text-justify">
+      <div className={`absolute inset-0 bg-black ${opacity ? 'opacity-[0.6]' : 'opacity-0'}`} />
+      <div className="relative p-5 text-left">
         <h2 className="font-arial text-xl font-bold uppercase">{title}</h2>
-        <p className="text-left text-xs font-semibold text-[#a4a4a4]">{description}</p>
+        <p className="rounded-md text-left text-xs font-medium text-white">{description}</p>
       </div>
     </div>
   )

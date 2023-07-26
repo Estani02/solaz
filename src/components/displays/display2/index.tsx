@@ -18,9 +18,8 @@ function Display2() {
           estacionamiento propio y un equipo de profesionales altamente calificados.
         </p>
         <p className="block text-sm md:hidden md:text-justify">
-          No esperes más para hacer realidad tus metas fitness. Nuestra exclusiva membresía de
-          gimnasio te brinda todas las herramientas y recursos necesarios para llevar tu rendimiento
-          al siguiente nivel. ¡Sé parte de nuestra comunidad activa ahora!
+          Nuestra exclusiva membresía de gimnasio te brinda todas las herramientas y recursos
+          necesarios para llevar tu rendimiento al siguiente nivel.
         </p>
         <button className="w-full rounded-full bg-white px-5 py-3 font-arial font-bold uppercase text-red-600 transition-colors duration-300 md:text-lg md:hover:bg-[#cbcbcb] md:hover:text-red-700">
           asociate
