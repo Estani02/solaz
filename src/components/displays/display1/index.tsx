@@ -30,7 +30,7 @@ function Display1() {
           Unite a la familia <b>Solaz</b>
         </p>
         <div className="flex h-[38%] flex-col items-center justify-between">
-          <button className="w-fit rounded-full bg-white px-5 py-3 font-arial font-bold uppercase text-red-600 transition-colors duration-300 md:text-xl md:hover:bg-[#ffffff] md:hover:text-red-900">
+          <button className="w-fit rounded-full bg-white px-5 py-3 font-arial font-bold uppercase text-red-600 transition-colors duration-300 md:text-xl md:hover:bg-[#cbcbcb] md:hover:text-red-700">
             Conoce los beneficios
           </button>
           <IteamRedes />
