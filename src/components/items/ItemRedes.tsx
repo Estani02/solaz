@@ -29,15 +29,19 @@ const Items = [
 ]
 
 interface PropsIteamRedes {
-  minimized?: boolean
+  minimized?: 'nav' | 'footerMobile' | 'footer'
   exclude?: number
 }
 
-function ItemRedes({ minimized = false, exclude }: PropsIteamRedes) {
+function ItemRedes({ minimized, exclude }: PropsIteamRedes) {
   return (
     <ul
       className={`flex flex-row justify-between ${
-        minimized ? 'w-3/4 gap-0 p-2 md:w-fit md:gap-5 md:p-0' : 'w-3/4'
+        minimized === 'footer'
+          ? 'w-3/4 gap-0 p-2 md:w-fit md:gap-5 md:p-0'
+          : minimized === 'nav'
+          ? 'w-full justify-between'
+          : 'w-3/4'
       }`}
     >
       {Items.map((item) => {
@@ -49,7 +53,11 @@ function ItemRedes({ minimized = false, exclude }: PropsIteamRedes) {
           <li
             key={item.id}
             className={`rounded-full bg-white p-1 md:transition-transform md:hover:scale-125 ${
-              minimized ? 'h-8 w-8' : 'h-10 w-10 md:h-12 md:w-12'
+              minimized === 'footer'
+                ? 'h-8 w-8'
+                : minimized === 'nav'
+                ? 'h-7 w-7'
+                : 'h-10 w-10 md:h-12 md:w-12'
             }`}
           >
             <a href={item.link} rel="noopener" target="_blank">

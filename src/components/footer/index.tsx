@@ -12,7 +12,7 @@ function Footer() {
           SOLAZ
         </span>
         <div className="flex w-full justify-center md:hidden">
-          <IteamRedes minimized exclude={1} />
+          <IteamRedes exclude={1} minimized="footer" />
         </div>
         <p className="hidden text-justify md:block md:w-48 md:text-sm lg:w-96 lg:text-center">
           Somos un gimnasio con espíritu de club, donde lo social y el entrenamiento placentero
@@ -49,7 +49,7 @@ function Footer() {
         <div className="hidden w-fit flex-col gap-2 md:flex">
           <h6 className="font-arial text-sm font-bold md:text-base lg:text-lg">REDES SOCIALES</h6>
           <div className="hidden w-full justify-center md:flex">
-            <IteamRedes minimized exclude={1} />
+            <IteamRedes exclude={1} minimized="footer" />
           </div>
         </div>
       </div>
