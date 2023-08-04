@@ -8,12 +8,15 @@ import ItemGallery from '@/components/items/ItemGallery'
 
 function Display4() {
   return (
-    <section className="relative flex flex-col gap-4 bg-[#15181c] px-4 py-6 text-white md:h-full md:w-full md:flex-row md:justify-evenly md:py-24">
+    <section
+      className="relative flex flex-col gap-4 px-4 py-6 text-white md:h-full md:w-full md:flex-row md:justify-evenly md:py-24"
+      id="Conocenos"
+    >
       <div className="flex flex-col gap-4 md:sticky md:bottom-[40px] md:top-[22vh] md:h-fit md:w-[450px]">
         <h4 className="text-center font-arial text-3xl font-bold md:text-left md:text-4xl">
           QUIENES SOMOS
         </h4>
-        <div className="text-justify text-sm">
+        <div className="text-sm">
           <p>
             <b>Solaz</b> es una amalgama perfecta de innovación tecnológica, profesionalismo y
             calidez humana comprometidos en generar cambios integrales y sostenibles en tu cuerpo y

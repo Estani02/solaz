@@ -1,17 +1,13 @@
 /* eslint-disable react/button-has-type */
 import React from 'react'
 
-import WhatsappIcon from '@/assets/svg/WhatsappIcon'
-import TiktokIcon from '@/assets/svg/TiktokIcon'
-import FacebookIcon from '@/assets/svg/FacebookIcon'
-import InstagramIcon from '@/assets/svg/InstagramIcon'
-
 import IteamRedes from '../../items/ItemRedes'
 
 function Display1() {
   return (
     <section
       className="relative flex h-[100vh] flex-col items-center justify-between bg-cover bg-fixed bg-center bg-no-repeat p-2 "
+      id="Inicio"
       style={{
         backgroundImage: `url(https://lirp.cdn-website.com/bfcdb538/dms3rep/multi/opt/DSC00170+%281%29-1920w.jpg)`,
       }}
@@ -19,7 +15,7 @@ function Display1() {
       <div
         className="absolute inset-0 bg-black opacity-[1]"
         style={{
-          background: 'linear-gradient(#15181c00 -100%, #16191d 88%, #15181c 95%)',
+          background: 'linear-gradient(#15181c00 -100%, #16191d 88%, #1F2128 95%)',
         }}
       />
       <div className="relative mt-[72px] flex h-full flex-col gap-4 text-white">
