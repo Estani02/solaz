@@ -9,6 +9,7 @@ import { SwipeableDrawer } from '@mui/material'
 
 import NavIcon from '@/assets/svg/NavIcon'
 import ItemsNav from '@/components/items/ItemNav'
+import IteamRedes from '@/components/items/ItemRedes'
 
 function NavBar() {
   const [mobileOpen, setMobileOpen] = useState(false)
@@ -58,7 +59,18 @@ function NavBar() {
           onClose={handleDrawerToggle(false)}
           onOpen={handleDrawerToggle(true)}
         >
-          <ItemsNav mobile />
+          <div className="flex h-screen flex-col justify-between">
+            <div className="flex flex-col">
+              <span className="self-center whitespace-nowrap border-b-2 px-5 py-8 text-center font-arial text-4xl font-black tracking-[-0.1em] text-red-500">
+                SOLAZ
+              </span>
+              <ItemsNav mobile closeNav={setMobileOpen} />
+            </div>
+            <div className="flex flex-col gap-2 border-t-2 px-4 py-2 text-xs">
+              <span>© 2023, SOLAZ club</span>
+              <IteamRedes minimized="nav" />
+            </div>
+          </div>
         </SwipeableDrawer>
         <ItemsNav mobile={false} />
       </div>
