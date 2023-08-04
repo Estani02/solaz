@@ -6,7 +6,7 @@ import Display5 from '@/components/displays/display5'
 
 export default function Home() {
   return (
-    <main className="bg-[#15181c] text-white">
+    <main className="bg-[#1F2128] text-white">
       <Display1 />
       <Display2 />
       <Display3 />

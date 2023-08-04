@@ -1,17 +1,9 @@
-// import type { FC } from 'react'
-
 import React from 'react'
 
 import MancuernaIcono from '@/assets/svg/MancuernaIcon'
 import GraficoIcon from '@/assets/svg/GraficoIcon'
 import NutrIcon from '@/assets/svg/NutrIcon'
 import QrIcon from '@/assets/svg/QrIcono'
-
-// interface PropsNavItems {
-//   title: string
-//   text: string
-//   component: FC
-// }
 
 const Iteams = [
   {
@@ -48,7 +40,7 @@ function ItemAppPhone() {
           {item.component}
           <span className="text-center md:text-left">
             <h4 className="mb-3 text-center text-2xl font-extrabold">{item.title}</h4>
-            <p className="text-sm md:text-base">{item.text}</p>
+            <p className="text-left text-sm text-[#7f7f7f] md:text-base">{item.text}</p>
           </span>
         </li>
       ))}
