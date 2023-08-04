@@ -10,3 +10,17 @@ export interface PropsItemCarousel {
 export interface MapIteamCarousel extends PropsItemCarousel {
   id: number
 }
+
+export interface FormValues {
+  name: string
+  phone: string
+  email: string
+  message: string
+}
+
+export interface FormErrors {
+  name?: string
+  phone?: string
+  email?: string
+  message?: string
+}
