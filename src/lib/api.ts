@@ -1,7 +1,8 @@
+/* eslint-disable no-console */
 import type { FormValues } from '@/interfaces'
 
 export async function sendFormContact(formData: FormValues) {
-  await fetch('https://solaz.vercel.app/api/contact', {
+  await fetch('/api/contact', {
     method: 'POST', // Método de solicitud
     headers: {
       'Content-Type': 'application/json', // Tipo de contenido que se envía en el cuerpo de la solicitud

@@ -31,7 +31,7 @@ function Display5() {
             </span>
 
             <a
-              className="flex w-fit flex-row items-center gap-1 border-b-[1.5px] border-sky-500 text-left text-sm text-sky-500 transition-colors duration-150 md:hover:border-sky-700 md:hover:text-sky-700"
+              className="flex w-fit flex-row items-center gap-1 border-b-[1.5px] border-blue-500 text-left text-sm text-blue-500 transition-colors duration-150 md:hover:border-sky-500 md:hover:text-sky-500"
               href="https://www.google.com/maps/place/Solaz+Club/@-31.2695372,-64.3020727,17z/data=!3m1!4b1!4m6!3m5!1s0x94329d327dc338a5:0x57109a11506d73f8!8m2!3d-31.2695372!4d-64.3020727!16s%2Fg%2F11f__7c4fz?entry=ttu"
               rel="noopener"
               target="_blank"
