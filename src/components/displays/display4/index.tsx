@@ -23,9 +23,12 @@ function Display4() {
             salud.
           </p>
         </div>
-        <button className="w-full rounded-full bg-white px-5 py-3 font-arial font-bold uppercase text-red-600 transition-colors duration-300 md:text-lg md:hover:bg-[#cbcbcb] md:hover:text-red-700">
+        <a
+          className="w-full rounded-full bg-white px-5 py-3 text-center font-arial font-bold uppercase text-red-600 transition-colors duration-300 md:text-lg md:hover:bg-[#cbcbcb] md:hover:text-red-700"
+          href="#Contactanos"
+        >
           veni a probar
-        </button>
+        </a>
       </div>
       <div className="container mx-auto my-5 block md:hidden xl:px-20">
         <CarouselCompont itemMap={itemsConocenos} />
