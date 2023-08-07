@@ -29,8 +29,10 @@ const generateEmailContent = (data: FormValues) => {
   }
 }
 
-export function GET(req: Request) {
-  return NextResponse.json(req.body)
+export function GET() {
+  return NextResponse.json({
+    solaz: 'solaz-api',
+  })
 }
 
 export async function POST(req: Request) {

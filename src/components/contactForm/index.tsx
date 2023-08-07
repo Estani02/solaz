@@ -49,6 +49,9 @@ function ContactForm() {
         return errors
       }}
       onSubmit={async (value, { resetForm }) => {
+        const email = process.env.EMAIL
+
+        console.log(email)
         try {
           await sendFormContact(value)
           void swal('Se enviaron tus datos!', 'Nos estaremos comunicando pronto', 'success')
