@@ -1,3 +1,4 @@
+import Display6 from '@/components/displays/Display6'
 import Display1 from '@/components/displays/display1'
 import Display2 from '@/components/displays/display2'
 import Display3 from '@/components/displays/display3'
@@ -11,6 +12,7 @@ export default function Home() {
       <Display2 />
       <Display3 />
       <Display4 />
+      <Display6 />
       <Display5 />
     </main>
   )
