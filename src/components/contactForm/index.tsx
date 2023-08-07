@@ -3,12 +3,15 @@ import type { FormErrors, FormValues } from '@/interfaces'
 
 import { Button, TextField } from '@mui/material'
 import { Formik } from 'formik'
-import React from 'react'
+import React, { useState } from 'react'
 import swal from 'sweetalert'
 
 import { sendFormContact } from '@/lib/api'
+import Spinner from '@/assets/svg/Spinner'
 
 function ContactForm() {
+  const [isLoading, setIsLoading] = useState(false)
+
   return (
     <Formik
       initialValues={{
@@ -50,11 +53,14 @@ function ContactForm() {
       }}
       onSubmit={async (value, { resetForm }) => {
         try {
+          setIsLoading(true)
           await sendFormContact(value)
           void swal('Se enviaron tus datos!', 'Nos estaremos comunicando pronto', 'success')
           resetForm()
         } catch (error) {
           void swal('Error!', 'Vuelve a intentarlo de nuevo', 'error')
+        } finally {
+          setIsLoading(false) // Ocultar mensaje de carga, tanto si la solicitud tiene éxito como si falla.
         }
       }}
     >
@@ -118,7 +124,7 @@ function ContactForm() {
             variant="contained"
             onClick={void handleSubmit}
           >
-            Enviar
+            {isLoading ? <Spinner className="h-[24.5px] w-[24.5px]" /> : 'Envar'}
           </Button>
         </form>
       )}
