@@ -21,7 +21,7 @@ export async function sendFormContact(formData: FormValues) {
       console.log(data) // Aquí puedes manejar la respuesta del backend
     })
     .catch((error) => {
-      console.error('Error:', error) // Manejar errores en caso de que ocurran
+      console.error('❌Error:', error) // Manejar errores en caso de que ocurran
       throw error
     })
 }
