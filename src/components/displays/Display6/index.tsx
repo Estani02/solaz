@@ -20,11 +20,14 @@ function Display6() {
         <h6 className="border-b-2 border-black text-xl font-bold">PLAN TOTAL</h6>
         <div className="flex flex-col gap-2 py-6 text-center">
           <div className="flex h-[156px] flex-col justify-between gap-6 text-center">
-            <span className="text-sm font-semibold">¡Accedé a todo los beneficios!</span>
-            <span className="text-2xl font-extrabold">
-              <span className="text-red-500">6</span> cutos SIN INTERÉS
-            </span>
-            <span className="font-extrabold text-red-500">*CUPOS LIMITADOS</span>
+            <p className="text-sm font-semibold">¡Accedé a todo los beneficios!</p>
+            <div className="flex flex-col">
+              <p className="text-2xl font-extrabold uppercase">6 meses</p>
+              <p className="text-xl font-extrabold">
+                <span className="text-red-500">6</span> cutos SIN INTERÉS
+              </p>
+            </div>
+            <p className="font-extrabold text-red-500">*CUPOS LIMITADOS</p>
           </div>
           <a
             className="w-full rounded-lg bg-[#1976d2] py-2 text-lg font-bold uppercase text-white"
