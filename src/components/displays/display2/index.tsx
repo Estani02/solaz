@@ -23,7 +23,7 @@ function Display2() {
           llevar tu rendimiento al siguiente nivel.
         </p>
         <a
-          className="w-full rounded-full bg-white px-5 py-3 font-arial font-bold uppercase text-red-600 transition-colors duration-300 md:text-lg md:hover:bg-[#cbcbcb] md:hover:text-red-700"
+          className="w-full rounded-full bg-white px-5 py-3 text-center font-arial font-bold uppercase text-red-600 transition-colors duration-300 md:text-lg md:hover:bg-[#cbcbcb] md:hover:text-red-700"
           href="#Plan"
         >
           asociate
