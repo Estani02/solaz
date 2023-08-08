@@ -17,6 +17,10 @@ const navItems = [
     link: '#Conocenos',
   },
   {
+    text: 'Asociate',
+    link: '#Plan',
+  },
+  {
     text: 'Contactanos',
     link: '#Contactanos',
   },
