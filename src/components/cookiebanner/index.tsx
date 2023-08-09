@@ -35,7 +35,7 @@ export default function CookieBanner() {
   return (
     <div
       className={`${
-        cookieConsent != null ? 'hidden' : 'flex'
+        cookieConsent != null ? 'animate-jump-out' : 'flex'
       } fixed inset-x-0 bottom-0 z-[100000000] mx-auto my-10 flex max-w-max flex-col items-center justify-between gap-4 rounded-lg bg-white p-3 text-sm shadow sm:flex-row md:max-w-screen-sm md:px-4 md:text-base`}
     >
       <div className="text-center">
