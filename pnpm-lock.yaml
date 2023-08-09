@@ -29,6 +29,9 @@ dependencies:
   autoprefixer:
     specifier: 10.4.14
     version: 10.4.14(postcss@8.4.25)
+  client-only:
+    specifier: ^0.0.1
+    version: 0.0.1
   eslint:
     specifier: 8.44.0
     version: 8.44.0
@@ -70,6 +73,9 @@ devDependencies:
   '@next/eslint-plugin-next':
     specifier: ^12.3.4
     version: 12.3.4
+  '@types/gtag.js':
+    specifier: ^0.0.12
+    version: 0.0.12
   '@types/leaflet':
     specifier: ^1.9.3
     version: 1.9.3
@@ -870,6 +876,10 @@ packages:
 
   /@types/geojson@7946.0.10:
     resolution: {integrity: sha512-Nmh0K3iWQJzniTuPRcJn5hxXkfB1T1pgB89SBig5PlJQU5yocazeu4jATJlaA0GYFKWMqDdvYemoSnF2pXgLVA==}
+    dev: true
+
+  /@types/gtag.js@0.0.12:
+    resolution: {integrity: sha512-YQV9bUsemkzG81Ea295/nF/5GijnD2Af7QhEofh7xu+kvCN6RdodgNwwGWXB5GMI3NoyvQo0odNctoH/qLMIpg==}
     dev: true
 
   /@types/json-schema@7.0.12:
