@@ -2,9 +2,12 @@ import './globals.css'
 import type { Metadata } from 'next'
 
 import { Montserrat } from 'next/font/google'
+import Head from 'next/head'
 
 import NavBar from '@/components/navbar'
 import Footer from '@/components/footer'
+import GoogleAnalytics from '@/components/googleAnalytic'
+import CookieBanner from '@/components/cookiebanner'
 
 const montserrat = Montserrat({ subsets: ['latin'], weight: '400' })
 
@@ -13,7 +16,7 @@ export const metadata: Metadata = {
   description:
     'Bienvenido a Solaz, tu destino para un estilo de vida saludable y activo. Nuestro gimnasio de alta calidad ofrece una variedad de instalaciones y clases diseñadas para ayudarte a alcanzar tus objetivos de acondicionamiento físico. Únete a nuestra comunidad comprometida y experimenta entrenamientos efectivos en un ambiente acogedor y moderno.',
   keywords:
-    'gimnasio, acondicionamiento físico, salud, bienestar, entrenamiento, clases, comunidad',
+    'gimnasio, acondicionamiento físico, salud, bienestar, entrenamiento, clases, comunidad, solaz',
   authors: [{ name: 'Solaz gym', url: 'https://solaz-club.vercel.app/' }],
   robots: 'index, follow',
   openGraph: {
@@ -33,9 +36,11 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <GoogleAnalytics GA_MEASUREMENT_ID="G-HBJQQYR99S" />
       <body className={montserrat.className}>
         <NavBar />
         {children}
+        <CookieBanner />
         <Footer />
       </body>
     </html>
