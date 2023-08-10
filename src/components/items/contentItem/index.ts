@@ -23,6 +23,13 @@ export const itemsBeneficios: MapIteamCarousel[] = [
       'Tu compañero de entrenamiento personalizado. Sigue rutinas, recibe recomendaciones y conecta con otros miembros.',
     img: 'https://blogs.funiber.org/wp-content/uploads/2019/03/deportes.jpg',
   },
+  {
+    id: 4,
+    title: 'Lugar de Entrenamiento Higiénico',
+    description:
+      'Sabemos que un entorno limpio y seguro es esencial para que alcances tus metas fitness con tranquilidad. Nuestras instalaciones se mantienen impecables día tras día para garantizar tu comodidad y bienestar.',
+    img: 'https://www.limpiezasvirosa.com/wp-content/uploads/2022/04/limpieza-de-gimnasios.jpg',
+  },
 ]
 
 export const itemsConocenos: MapIteamCarousel[] = [

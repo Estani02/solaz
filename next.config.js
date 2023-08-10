@@ -19,6 +19,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'blogs.funiber.org',
       },
+      {
+        protocol: 'https',
+        hostname: 'www.limpiezasvirosa.com',
+      },
     ],
   },
 }
