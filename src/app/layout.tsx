@@ -39,7 +39,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={montserrat.className}>
         <NavBar />
         {children}
-        <CookieBanner />
+        {/* <CookieBanner /> */}
         <Footer />
       </body>
     </html>

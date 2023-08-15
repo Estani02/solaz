@@ -58,7 +58,7 @@ function ContactForm() {
           void swal('Se enviaron tus datos!', 'Nos estaremos comunicando pronto', 'success')
           resetForm()
         } catch (error) {
-          void swal('Error!', 'Vuelve a intentarlo de nuevo', 'error')
+          void swal('Error!', 'Vuelve a intentarlo', 'error')
         } finally {
           setIsLoading(false) // Ocultar mensaje de carga, tanto si la solicitud tiene éxito como si falla.
         }
